@@ -1,0 +1,30 @@
+.opinion {
+    width: 10vw;
+    height: 10vw;
+    border-radius: 1vw;
+    position: absolute;
+}
+
+#clock {
+    top: 20%;
+    left: 20%;
+    background-color: #34a853;
+}
+
+#stopwatch {
+    top: 20%;
+    right: 20%;
+    background-color: #4285f4;
+}
+
+#santa-claus {
+    bottom: 20%;
+    left: 20%;
+    background-color: #ea4335;
+}
+
+#master {
+    bottom: 20%;
+    right: 20%;
+    background-color: #222c37;
+}
