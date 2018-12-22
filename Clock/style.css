@@ -18,3 +18,9 @@ body {
     color: #ffffff88;
     font-size: 7vw;
 }
+
+#master-in {
+    right: 1vw !important;
+    top: 1vw !important;
+    background-color: #222222;
+}

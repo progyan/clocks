@@ -36,6 +36,12 @@ body {
     display: inline-block;
 }
 
+#clock-in {
+    background-color: #34a853;
+    top: 1vw;
+    right: 1vw;
+}
+
 input[type="number"] {
     font-size: 5vw;
     text-align: center;
