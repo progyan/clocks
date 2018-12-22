@@ -13,6 +13,7 @@ function changeTime(){
         let hours = addZeroes((date / 3600000 % 24), 2);
         let days = addZeroes((date / 86400000), 2);
         document.getElementById("time").innerHTML = days + "." + hours + ":" + minutes + ":" + seconds + "<div id=\"ms\">." + milliseconds + "</div>";
+        requestAnimationFrame(changeTime);
     } else {
         document.getElementById("time").innerHTML = "#СНовымГодом!";
     }
@@ -35,4 +36,4 @@ function makeNZeroes(n){
     return str;
 }
 
-setInterval(changeTime, 5);
+changeTime();

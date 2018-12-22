@@ -7,6 +7,7 @@ function changeTime(){
     let minutes = addZeroes(date.getMinutes(), 2);
     let hours = addZeroes(date.getHours(), 2);
     document.getElementById("time").innerHTML = hours + ":" + minutes + ":" + seconds + "<div id=\"ms\">." + milliseconds + "</div>";
+    requestAnimationFrame(changeTime);
 }
 
 function addZeroes(num, len){
@@ -25,4 +26,4 @@ function makeNZeroes(n){
     return str;
 }
 
-setInterval(changeTime, 5);
+changeTime();
