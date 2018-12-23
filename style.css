@@ -28,14 +28,14 @@
     background-color: #ea4335;
 }
 
-#master {
-    bottom: 20%;
-    right: 20%;
-    background-color: #222c37;
-}
-
 #exit {
     background-color: aliceblue;
     top: 1vw;
     left: 1vw;
+}
+
+#alarm {
+    bottom: 20%;
+    right: 20%;
+    background-color: #fbbc05;
 }
