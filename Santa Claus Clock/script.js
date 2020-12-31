@@ -15,7 +15,7 @@ function changeTime(){
         document.getElementById("time").innerHTML = days + "." + hours + ":" + minutes + ":" + seconds + "<div id=\"ms\">." + milliseconds + "</div>";
         requestAnimationFrame(changeTime);
     } else {
-        document.getElementById("time").innerHTML = "#СНовымГодом!";
+        document.getElementById("time").innerHTML = "С Новым Годом";
     }
 }
 
