@@ -1,4 +1,4 @@
-const NEW_YEAR = 1609448400000;
+const NEW_YEAR = 1640984400000;
 
 let date;
 let now;
